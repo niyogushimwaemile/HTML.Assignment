@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Example</title>
+    <style>
+        body {
+            background-color:peachpuff;
+            color: red;
+            font: normal 16px;
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+	  <p>
+        <a href="./home.html">HOME</a>
+        <a href="./about.html">ABOUT</a>
+        <a href="./contact.html">CONTACT</a>
+        <a href="./services.html">SERVICES</a>
+        <a href="./form.html">FORM</a>
+        <a href="./table.html">TABLE</a>
+        <a href="./book.html">MYBOOK</a>
+    </p>
+    <marquee>WELCOME</marquee>
+    <hr>
+    <h1>Your Form </h1>
+        <form action="#" method="POST">
+
+            <label for="fname">First Name</label>
+            <input type="text" name="fname" id="fname"><br><br>
+
+            <label for="lname">Last Name</label>
+            <input type="text" name="lname" id="lname"><br><br>
+
+            <label for="date">Date Of Birth</label>
+            <input type="date" name="date" id="date"><br><br>
+
+            <label for="system">contact</label>
+            <input type="number" name="contact" id="contact"><br><br>
+
+            <label for="system">CONSUMER</label>
+            <select name="consumer" id="consumer">
+                <option value="company">company</option>
+                <option value="regular house">regular house</option>
+                <option value="saloons">saloons</option>
+                <option value="shools">shools</option>
+                <option value="business">business</option>
+                <option value="offices">offices</option>
+            </select><br><br>
+
+ <label>Marital status</label>
+            <input type="radio" name="Marital status" value="marriage" checked>marriage
+            <input type="radio" name="Marital status" value="single">single<br><br>
+              <label>Sex</label>
+            <input type="radio" name="sex" value="male" checked>Male
+            <input type="radio" name="sex" value="female">Female<br><br>
+
+            <label for="gr">Your Group</label>
+            <input type="text" name="gr" id="gr"><br><br>
+
+
+            <input type="submit" name="sbt" value="SEND">
+            <input type="reset" name="cnl" value="CANCEL"><br>
+        </form>
+</body>
+</html>
